@@ -18,7 +18,6 @@ ul {
     gap: 56px;
 }
 
-
 li {
     display: flex;
     flex-direction: column;
@@ -38,13 +37,21 @@ img {
     max-width: 300px;
 }
 
+button {
+    border-radius: 8px;
+    border: none;
+    width: fit-content;
+    padding: 4px 16px;
+}
+
 header {
     color: antiquewhite;
     background-color: #1F2937;
     display: flex;
     margin: 0;
-    padding: 16px;
+    padding: 16px 150px;
     justify-content: space-between;
+    align-items: center;
 }
 
 footer {
@@ -53,10 +60,19 @@ footer {
     align-items: center;
     color: antiquewhite;
     background-color: #1F2937;
+    font-size: 14px;
+    padding: 24px;
 }
 
-.logo {
-
+#logo {
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Arial';
+    font-style: italic;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    color: #1F2937;
+    padding: 8px;
 }
 
 .links {
@@ -81,8 +97,7 @@ footer {
 
 .one {
     display: flex;
-    flex: initial;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     padding: 36px;
     color: antiquewhite;
@@ -90,12 +105,30 @@ footer {
 }
 
 .sign-up {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.sign-up h1, p {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.sign-up button {
+    background-color: #3882f6;
+    color: antiquewhite;
+    margin-top: 12px;
 }
 
 .two {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1;
     padding: 36px;
 }
 
@@ -128,10 +161,28 @@ footer {
     margin: 52px;
 }
 
-.call {
-    width: 75%;
-    height: 100px;
+.call-container {
+    width: 66%;
+    height: 33%;
     color: antiquewhite;
     background-color: #3882f6;
     border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 36px;
+    flex: initial;
 }
+
+.call-container button {
+    background-color: transparent;
+    color: antiquewhite;
+    border-style: solid;
+    mask-border-width: 8px;
+}
+
+.text h3, p {
+margin: 0;
+padding: 0;
+}
+
