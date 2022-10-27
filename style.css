@@ -2,8 +2,6 @@ body {
     font-family: roboto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    flex: 1;
     margin: 0;
     padding: 0;
 }
@@ -16,12 +14,19 @@ ul {
     gap: 16px;
 }
 
+.cards ul {
+    gap: 56px;
+}
+
+
 li {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    gap: 8px;
+}
+
+.cards li {
+    max-width: 100px;                                
 }
 
 a{
@@ -70,6 +75,10 @@ footer {
     border-radius: 8px;
 }
 
+.item-description {
+    text-align: center;
+}
+
 .one {
     display: flex;
     flex: initial;
@@ -86,26 +95,29 @@ footer {
 .two {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding: 36px;
-}
-
-.cards {
-    display: flex;
-    gap: 36px;
-}
-
-.item-description {
 }
 
 .three {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     padding: 36px;
     background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 24px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+.author {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .four {
