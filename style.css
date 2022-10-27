@@ -134,23 +134,27 @@ footer {
 
 .three {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 36px;
     background-color: #e5e7eb;
 }
 
-.quote {
-    font-size: 24px;
-    font-style: italic;
+.size-container {
+    max-width: 50%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
-.author {
+quote {
+    font-size: 24px;
+    font-style: italic;
+    text-align: left;
+}
+
+author {
     font-weight: bold;
-    display: flex;
-    justify-content: flex-end;
+    text-align: right;
 }
 
 .four {
