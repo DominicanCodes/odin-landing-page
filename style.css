@@ -34,7 +34,8 @@ a{
 }
 
 img {
-    max-width: 300px;
+    width: 550px;
+    height: 300px;
 }
 
 button {
@@ -45,11 +46,12 @@ button {
 }
 
 header {
-    color: antiquewhite;
+    color: #E5E7EB;
     background-color: #1F2937;
+    font-size: 18px;
     display: flex;
     margin: 0;
-    padding: 16px 150px;
+    padding: 16px;
     justify-content: space-between;
     align-items: center;
 }
@@ -58,18 +60,18 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: antiquewhite;
+    color: #E5E7EB;
     background-color: #1F2937;
     font-size: 14px;
     padding: 24px;
 }
 
 #logo {
-    font-size: large;
+    font-size: 24px;
     font-weight: bold;
     font-family: 'Arial';
     font-style: italic;
-    background-color: antiquewhite;
+    background-color: #E5E7EB;
     border-radius: 50%;
     color: #1F2937;
     padding: 8px;
@@ -97,17 +99,26 @@ footer {
 
 .one {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     padding: 36px;
-    color: antiquewhite;
+    color: #E5E7EB;
     background-color: #1F2937;
 }
 
 .sign-up {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    flex-shrink: 0;
+    width: 400px;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
 }
 
 .sign-up h1, p {
@@ -120,7 +131,7 @@ footer {
 
 .sign-up button {
     background-color: #3882f6;
-    color: antiquewhite;
+    color: #E5E7EB;
     margin-top: 12px;
 }
 
@@ -132,12 +143,18 @@ footer {
     padding: 36px;
 }
 
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+}
+
 .three {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 36px;
+    padding: 56px;
     background-color: #e5e7eb;
+    color: #1F2937;
 }
 
 .size-container {
@@ -147,7 +164,7 @@ footer {
 }
 
 quote {
-    font-size: 24px;
+    font-size: 36px;
     font-style: italic;
     text-align: left;
 }
@@ -168,25 +185,26 @@ author {
 .call-container {
     width: 66%;
     height: 33%;
-    color: antiquewhite;
+    color: #E5E7EB;
     background-color: #3882f6;
     border-radius: 8px;
     display: flex;
+    flex-shrink: 0;
     justify-content: space-between;
     align-items: center;
     padding: 24px 36px;
-    flex: initial;
+    flex-wrap: wrap;
 }
 
 .call-container button {
     background-color: transparent;
-    color: antiquewhite;
+    color: #E5E7EB;
     border-style: solid;
     mask-border-width: 8px;
+    margin: 12px 0px;
 }
 
 .text h3, p {
 margin: 0;
 padding: 0;
 }
-
