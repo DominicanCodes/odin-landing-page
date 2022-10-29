@@ -14,8 +14,14 @@ ul {
     gap: 16px;
 }
 
+.cards {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 .cards ul {
-    gap: 56px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 li {
@@ -34,8 +40,8 @@ a{
 }
 
 img {
-    width: 550px;
-    height: 300px;
+    width: 33%;
+    height: 15%;
 }
 
 button {
@@ -44,6 +50,7 @@ button {
     width: fit-content;
     padding: 4px 16px;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .one button:hover {
@@ -76,8 +83,10 @@ header {
     font-size: 18px;
     display: flex;
     margin: 0;
-    padding: 16px;
-    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    /* justify-content: space-between; */
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -105,8 +114,13 @@ footer {
 .links {
 }
 
+.links li:hover {
+    color: #E5E7EB;  
+    font-weight: 900;
+    transition-duration: 1000;  
+}
+
 .body-container {
-    
 }
 
 .item {
@@ -134,7 +148,6 @@ footer {
 .sign-up {
     display: flex;
     flex-direction: column;
-    flex-shrink: 0;
     width: 400px;
     justify-content: space-between;
     align-items: space-between;
@@ -165,14 +178,13 @@ h1 {
 .two {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    flex: 1;
     padding: 36px;
 }
 
 h2 {
     font-size: 36px;
     color: #1F2937;
+    text-align: center;
 }
 
 .three {
