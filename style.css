@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    min-width: 1000px;
 }
 
 ul {
@@ -139,6 +140,7 @@ footer {
 .one {
     display: flex;
     justify-content: center;
+    /* flex-wrap: wrap; */
     align-items: center;
     padding: 36px;
     color: #E5E7EB;
